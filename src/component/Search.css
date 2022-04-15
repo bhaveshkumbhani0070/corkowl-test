@@ -1,0 +1,18 @@
+.search-box {
+  font: inherit;
+  letter-spacing: inherit;
+  border: 0;
+  box-sizing: content-box;
+  height: 1.4375em;
+  margin: 0;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  min-width: 0;
+  width: 59%;
+  animation-name: mui-auto-fill-cancel;
+  animation-duration: 10ms;
+  color: #212121;
+  font-weight: 500;
+  padding: 8.5px 18px;
+  border-radius: 12px;
+}

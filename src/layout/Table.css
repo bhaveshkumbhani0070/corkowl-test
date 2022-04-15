@@ -1,0 +1,234 @@
+.title-img-align {
+  display: flex;
+  flex-direction: column;
+}
+.title-img-1 {
+  display: flex;
+  align-items: center;
+}
+.text-head {
+  font-size: 16px;
+  line-height: 24px;
+  color: #262730;
+}
+.title-img h1,
+.title-img h2 span,
+.title-des h1 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+.title-img h2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+.dropdown-table {
+  display: flex;
+  gap: 1rem;
+}
+.label-text {
+  padding: 4px 7px;
+  display: inline-block;
+  padding: 0.25em 0.4em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+}
+.label-text-gray {
+  background-color: #f4f7ff;
+  border-radius: 4px;
+  color: #485572;
+}
+.label-text-red {
+  background: #fff2ee;
+  border-radius: 4px;
+  color: #811434;
+}
+.wrapped {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  /* Subtle Text color */
+
+  color: #8c8ca1;
+}
+#wanteditems thead tr th {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  /* Body Text color */
+
+  color: #485572;
+}
+.table thead th {
+  border-bottom: 0;
+}
+.table td,
+.table th {
+  vertical-align: middle;
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
+}
+input[type="checkbox"]:before {
+  content: "";
+  display: block;
+  width: 16px;
+  height: 16px;
+  top: 0;
+  left: 0;
+  background-color: white;
+
+  border: 1.5px solid #8c8ca1;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+input[type="checkbox"]:checked:after {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  top: -14px;
+  left: 6px;
+  position: relative;
+}
+
+input[type="checkbox"]:checked::before {
+  background: #ef4859;
+  border-radius: 4px;
+}
+tr:hover {
+  cursor: pointer;
+}
+tr:hover .title-img h1 {
+  color: #ef4859;
+}
+.des-table {
+  animation-name: animateIn;
+  animation-duration: 1s;
+  animation-delay: calc(var(--animation-order) * 100ms);
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+
+  transition: all 0.3s ease,
+    transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+@keyframes animateIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-70px);
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.red-lable {
+  display: flex;
+  flex-direction: row;
+  gap: 2.4rem;
+  justify-content: end;
+  align-items: center;
+}
+
+.red-lable a {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+
+  text-align: center;
+  text-decoration-line: underline;
+
+  /* Secondary color */
+
+  color: #ef4859;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transition: all 0.5s;
+}
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.top--border {
+  border-top: 1px solid #e7e7e7;
+}
+.about-more {
+  width: 90%;
+  height: auto;
+  margin: auto;
+}
+
+.first-head {
+  display: grid;
+  grid-template-columns: 2fr 1fr 3fr;
+}
+.second-title {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 5rem;
+  row-gap: 1rem;
+}
+
+.content-des p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  /* Subtle Text color */
+
+  color: #8c8ca1;
+}
+
+.des-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 1rem;
+  column-gap: 1rem;
+}

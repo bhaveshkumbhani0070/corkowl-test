@@ -1,0 +1,90 @@
+.sales_head_para {
+  font-weight: 700;
+}
+.first_content {
+  font-weight: 600;
+}
+.first_content h1 {
+  font-size: 48px;
+  line-height: 56px;
+}
+.higest {
+  font-weight: 600;
+}
+.box_chart {
+  border: 1px solid rgb(230, 227, 227);
+  margin-top: 15px;
+}
+.second_sub_content {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.dark_content {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #868686;
+}
+.dark_content span {
+  margin-right: 10px;
+  color: #485572;
+}
+.all_content {
+  margin: 20px !important;
+}
+
+p {
+  margin: 0px !important;
+}
+.filter {
+  padding-left: 15px !important;
+}
+.filter_by {
+  color: #8c8ca1;
+  font-weight: bold;
+  font-size: 16px;
+}
+.week {
+  font-weight: 700;
+}
+.profilt_total {
+  color: #811434;
+  margin-top: 15px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+}
+.trend {
+  font-size: 16px;
+  color: #2fca72;
+  margin-top: 10px;
+  font-weight: 700;
+}
+.fa-chart-line {
+  margin-right: 10px;
+  color: #2fca72;
+}
+.products_total {
+  font-size: 16px;
+  color: #8c8ca1;
+
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.chare_part_content {
+  padding: 20px;
+  border-right: 1px solid rgb(230, 227, 227);
+}
+.line_chart {
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+.recharts-legend-wrapper {
+  display: none;
+}

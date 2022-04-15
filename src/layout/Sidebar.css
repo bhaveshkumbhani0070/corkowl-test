@@ -1,0 +1,20 @@
+#sidebar {
+  width: 17%;
+  box-shadow: 1px 0px 0px #ecf1f4;
+}
+
+.menu-list li {
+  height: 56px;
+  cursor: pointer;
+}
+.text-menu {
+  color: #485572;
+}
+.menu-list li:hover,
+.active {
+  background-color: #f7f1f3;
+  box-shadow: 2px 0px 0px #811434;
+}
+.menu-list li:hover .text-menu {
+  color: #811434;
+}
