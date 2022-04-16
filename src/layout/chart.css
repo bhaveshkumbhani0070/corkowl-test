@@ -45,6 +45,7 @@ p {
   color: #8c8ca1;
   font-weight: bold;
   font-size: 16px;
+  padding-top: 20px;
 }
 .week {
   font-weight: 700;
@@ -63,6 +64,15 @@ p {
   color: #2fca72;
   margin-top: 10px;
   font-weight: 700;
+}
+.trend span i {
+  margin-right: 10px;
+}
+.week-icon {
+  margin-left: 5px;
+}
+.line-style {
+  margin: 20px 20px 0px 20px;
 }
 .fa-chart-line {
   margin-right: 10px;

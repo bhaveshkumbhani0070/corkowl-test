@@ -3,6 +3,7 @@ import "./Navbar.css";
 import Logo from "../component/Logo";
 import SearchSection from "../component/Search";
 import "./View.css";
+
 const Navbar = () => {
   return (
     <nav className="navbar fixed-top navbar-expand-md primary-color  mb-3 grid-3">

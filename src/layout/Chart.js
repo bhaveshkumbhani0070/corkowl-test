@@ -28,8 +28,7 @@ function Chart() {
                         <span className="week">
                           This week
                           <i
-                            style={{ marginLeft: "5px" }}
-                            class="fa fa-angle-down"
+                            class="fa fa-angle-down week-icon"
                             aria-hidden="true"
                           ></i>
                         </span>
@@ -38,14 +37,7 @@ function Chart() {
                   </div>
                 </div>
               </div>
-              <hr
-                style={{
-                  marginTop: "20px",
-                  marginBottom: "0px",
-                  marginLeft: "20px",
-                  marginRight: "20px",
-                }}
-              />
+              <hr className="line-style" />
 
               <div>
                 <div>
@@ -58,10 +50,7 @@ function Chart() {
                               <h1>$74,729.00</h1>
                               <p className="trend">
                                 <span>
-                                  <i
-                                    style={{ marginRight: "10px" }}
-                                    class="fa-solid fa-arrow-trend-up"
-                                  ></i>
+                                  <i class="fa-solid fa-arrow-trend-up"></i>
                                 </span>
                                 +21% from last week
                               </p>
@@ -83,16 +72,11 @@ function Chart() {
                         </div>
                       </div>
                       <div className="col-3 left_side_2">
-                        <p className="filter_by" style={{ paddingTop: "20px" }}>
-                          Total Profit
-                        </p>
+                        <p className="filter_by">Total Profit</p>
                         <h3 className="profilt_total">$12,545.00</h3>
                         <p className="trend">
                           <span>
-                            <i
-                              style={{ marginRight: "10px" }}
-                              class="fa-solid fa-arrow-trend-up"
-                            ></i>
+                            <i class="fa-solid fa-arrow-trend-up"></i>
                           </span>
                           +23% from last week
                         </p>
