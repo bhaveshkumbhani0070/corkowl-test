@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Sidebar.css";
 
 const Sidebar = () => {
+  const [hoverImg, setHoverImg] = useState(false);
+
   const menu = [
     {
       key: "Dashboard",
@@ -40,6 +42,9 @@ const Sidebar = () => {
       active: false,
     },
   ];
+  const setImg = (e, data) => {
+    setHoverImg(data.icon);
+  };
   return (
     <div
       className="col-md-3 col-lg-2 sidebar-offcanvas p-0"
@@ -49,9 +54,16 @@ const Sidebar = () => {
       <ul className="nav flex-column sticky-top pt-5  mt-3 menu-list">
         {menu.map((data) => {
           return (
-            <li className={`nav-item  p-1 ${data.active ? "active" : ""}`}>
+            <li
+              className={`nav-item  p-1 ${data.active ? "active" : ""}`}
+              onMouseOver={(e) => setImg(e, data)}
+            >
               <a className={`nav-link text-menu`} href="#">
-                <img src={`img/${data.icon}.svg`} />
+                <img
+                  src={`img/${data.icon}${
+                    hoverImg == data.icon ? "-color" : ""
+                  }.svg`}
+                />
                 <span className="ml-3">{data.key}</span>
               </a>
             </li>

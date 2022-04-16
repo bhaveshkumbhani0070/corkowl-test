@@ -9,12 +9,23 @@
 }
 .text-menu {
   color: #485572;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
 }
 .menu-list li:hover,
 .active {
   background-color: #f7f1f3;
   box-shadow: 2px 0px 0px #811434;
 }
-.menu-list li:hover .text-menu {
+.menu-list li:hover .text-menu,
+.active .text-menu {
   color: #811434;
+}
+.inner_copy {
+  font-size: 12px;
+  color: #8c8ca1;
+}
+.fixed-bottom {
+  color: #8c8ca1;
 }
