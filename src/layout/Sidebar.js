@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Sidebar.css";
 
 const Sidebar = () => {
-  const [hoverImg, setHoverImg] = useState(false);
+  const [hoverImg, setHoverImg] = useState("desktop");
 
   const menu = [
     {
@@ -58,7 +58,9 @@ const Sidebar = () => {
         {menu.map((data) => {
           return (
             <li
-              className={`nav-item  p-1 ${data.active ? "active" : ""}`}
+              className={`nav-item  p-1 ${
+                hoverImg == data.icon ? "active" : ""
+              }`}
               onMouseOver={(e) => setImg(e, data)}
               onMouseOut={(e) => removeImg(e)}
             >
