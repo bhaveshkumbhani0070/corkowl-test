@@ -58,10 +58,6 @@
   font-weight: 600;
   font-size: 14px;
   line-height: 20px;
-  /* identical to box height, or 143% */
-
-  /* Subtle Text color */
-
   color: #8c8ca1;
 }
 #wanteditems thead tr th {
@@ -70,13 +66,8 @@
   font-weight: 700;
   font-size: 12px;
   line-height: 16px;
-  /* identical to box height, or 133% */
-
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
-  /* Body Text color */
-
   color: #485572;
 }
 .table thead th {

@@ -1,7 +1,6 @@
 import Chart from "./layout/Chart";
 import Counter from "./layout/Counter";
 import Table from "./layout/Table";
-// import "./layout/View.css";
 
 const Dashboard = () => {
   return (

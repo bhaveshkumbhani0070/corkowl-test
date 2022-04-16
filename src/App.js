@@ -3,7 +3,6 @@ import Dashboard from "./Dashboard";
 import Navbar from "./layout/Navbar";
 import Sidebar from "./layout/Sidebar";
 import "./App.css";
-import Chart from "./layout/Chart";
 
 function App() {
   return (
@@ -13,7 +12,7 @@ function App() {
         <div className="row row-offcanvas row-offcanvas-left">
           <Sidebar />
           <Dashboard />
-        </div> 
+        </div>
       </div>
     </div>
   );
