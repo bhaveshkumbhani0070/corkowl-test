@@ -45,6 +45,9 @@ const Sidebar = () => {
   const setImg = (e, data) => {
     setHoverImg(data.icon);
   };
+  const removeImg = (e) => {
+    setHoverImg(false);
+  };
   return (
     <div
       className="col-md-3 col-lg-2 sidebar-offcanvas p-0"
@@ -57,6 +60,7 @@ const Sidebar = () => {
             <li
               className={`nav-item  p-1 ${data.active ? "active" : ""}`}
               onMouseOver={(e) => setImg(e, data)}
+              onMouseOut={(e) => removeImg(e)}
             >
               <a className={`nav-link text-menu`} href="#">
                 <img
